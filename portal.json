@@ -1,0 +1,408 @@
+{
+ "portal": "BuildEase ICF Project Environment",
+ "project": {
+  "client": "ICF Homes",
+  "job": "Dendrons",
+  "number_prefix": "UKPCS-003",
+  "status": "FOR APPROVAL",
+  "revision": "P01",
+  "model_title": "UKPCS-003 Dendrons - Approval Issue P01"
+ },
+ "default_view": "stage-5",
+ "views": [
+  {
+   "id": "stage-1",
+   "kind": "stage",
+   "n": 1,
+   "title": "Ground-floor ICF",
+   "desc": "Nudura 6in XR35 ground-floor ICF walls as populated (6in Std internal walls), with the opening end caps and lintel bucks.",
+   "focus": false
+  },
+  {
+   "id": "stage-2",
+   "kind": "stage",
+   "n": 2,
+   "title": "First-floor steel and hollowcore",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor.",
+   "focus": true
+  },
+  {
+   "id": "stage-3",
+   "kind": "stage",
+   "n": 3,
+   "title": "First-floor ICF",
+   "desc": "First-floor ICF walls on the ground-floor ICF and the hollowcore, with their openings.",
+   "focus": true
+  },
+  {
+   "id": "stage-4",
+   "kind": "stage",
+   "n": 4,
+   "title": "Second-floor steel and joists",
+   "desc": "S-102 second-floor steel on the first-floor ICF and the posi / C24 joists between the steel.",
+   "focus": true
+  },
+  {
+   "id": "stage-5",
+   "kind": "stage",
+   "n": 5,
+   "title": "Roof steel, timbers and stair",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges), the roof timbers and the main stair.",
+   "focus": true
+  },
+  {
+   "id": "elev-N",
+   "kind": "elevation",
+   "n": 5,
+   "title": "North elevation",
+   "dir": [
+    0.0,
+    0.12,
+    -1.0
+   ],
+   "desc": "Complete structure seen from the north."
+  },
+  {
+   "id": "elev-S",
+   "kind": "elevation",
+   "n": 5,
+   "title": "South elevation",
+   "dir": [
+    0.0,
+    0.12,
+    1.0
+   ],
+   "desc": "Complete structure seen from the south."
+  },
+  {
+   "id": "elev-E",
+   "kind": "elevation",
+   "n": 5,
+   "title": "East elevation",
+   "dir": [
+    1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the east."
+  },
+  {
+   "id": "elev-W",
+   "kind": "elevation",
+   "n": 5,
+   "title": "West elevation",
+   "dir": [
+    -1.0,
+    0.12,
+    0.0
+   ],
+   "desc": "Complete structure seen from the west."
+  }
+ ],
+ "stages": [
+  {
+   "n": 1,
+   "title": "Ground-floor ICF",
+   "desc": "Nudura 6in XR35 ground-floor ICF walls as populated (6in Std internal walls), with the opening end caps and lintel bucks.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 4238364
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "First-floor steel and hollowcore",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 371148
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "First-floor ICF",
+   "desc": "First-floor ICF walls on the ground-floor ICF and the hollowcore, with their openings.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 2700100
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Second-floor steel and joists",
+   "desc": "S-102 second-floor steel on the first-floor ICF and the posi / C24 joists between the steel.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 72804
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Roof steel, timbers and stair",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges), the roof timbers and the main stair.",
+   "files": [
+    {
+     "glb": "stage-5.glb",
+     "part": null,
+     "label": null,
+     "bytes": 167876
+    }
+   ]
+  }
+ ],
+ "groups": [
+  {
+   "id": "drawings",
+   "title": "Approval drawings",
+   "note": "A3 approval issue: for comment and approval, not for construction.",
+   "zip": {
+    "file": "downloads/UKPCS-003 Approval drawings.zip",
+    "bytes": 1472017,
+    "count": 14
+   },
+   "docs": [
+    {
+     "id": "UKPCS-003-GA-01",
+     "title": "GF ICF General Arrangement",
+     "file": "docs/drawings/UKPCS-003-GA-01 GF ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-GA-01.png",
+     "bytes": 80930,
+     "number": "UKPCS-003-GA-01",
+     "view": "stage-1",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-GA-02",
+     "title": "FF ICF General Arrangement",
+     "file": "docs/drawings/UKPCS-003-GA-02 FF ICF General Arrangement.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-GA-02.png",
+     "bytes": 64340,
+     "number": "UKPCS-003-GA-02",
+     "view": "stage-3",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-GS-01",
+     "title": "GF Steel over ICF",
+     "file": "docs/drawings/UKPCS-003-GS-01 GF Steel over ICF.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-GS-01.png",
+     "bytes": 75629,
+     "number": "UKPCS-003-GS-01",
+     "view": "stage-2",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-GS-02",
+     "title": "FF Steel over ICF",
+     "file": "docs/drawings/UKPCS-003-GS-02 FF Steel over ICF.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-GS-02.png",
+     "bytes": 73182,
+     "number": "UKPCS-003-GS-02",
+     "view": "stage-4",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-EL-01",
+     "title": "North and South Elevations",
+     "file": "docs/drawings/UKPCS-003-EL-01 North and South Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-EL-01.png",
+     "bytes": 396775,
+     "number": "UKPCS-003-EL-01",
+     "view": "elev-N",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-EL-02",
+     "title": "East and West Elevations",
+     "file": "docs/drawings/UKPCS-003-EL-02 East and West Elevations.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-EL-02.png",
+     "bytes": 394535,
+     "number": "UKPCS-003-EL-02",
+     "view": "elev-E",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-01",
+     "title": "Section A-A",
+     "file": "docs/drawings/UKPCS-003-SE-01 Section A-A.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-01.png",
+     "bytes": 106930,
+     "number": "UKPCS-003-SE-01",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-02",
+     "title": "Section B-B",
+     "file": "docs/drawings/UKPCS-003-SE-02 Section B-B.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-02.png",
+     "bytes": 100038,
+     "number": "UKPCS-003-SE-02",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-03",
+     "title": "Section C-C",
+     "file": "docs/drawings/UKPCS-003-SE-03 Section C-C.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-03.png",
+     "bytes": 85749,
+     "number": "UKPCS-003-SE-03",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-04",
+     "title": "Section D-D",
+     "file": "docs/drawings/UKPCS-003-SE-04 Section D-D.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-04.png",
+     "bytes": 74019,
+     "number": "UKPCS-003-SE-04",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-05",
+     "title": "Section E-E",
+     "file": "docs/drawings/UKPCS-003-SE-05 Section E-E.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-05.png",
+     "bytes": 117866,
+     "number": "UKPCS-003-SE-05",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-06",
+     "title": "Section F-F",
+     "file": "docs/drawings/UKPCS-003-SE-06 Section F-F.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-06.png",
+     "bytes": 60524,
+     "number": "UKPCS-003-SE-06",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-07",
+     "title": "Section H-H",
+     "file": "docs/drawings/UKPCS-003-SE-07 Section H-H.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-07.png",
+     "bytes": 133225,
+     "number": "UKPCS-003-SE-07",
+     "view": "stage-5",
+     "view_opts": {}
+    },
+    {
+     "id": "UKPCS-003-SE-08",
+     "title": "Section I-I",
+     "file": "docs/drawings/UKPCS-003-SE-08 Section I-I.pdf",
+     "pages": 1,
+     "thumb": "thumbs/UKPCS-003-SE-08.png",
+     "bytes": 66018,
+     "number": "UKPCS-003-SE-08",
+     "view": "stage-5",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "engineering",
+   "title": "Engineering",
+   "note": "Structural engineer: Tier Consult 078-TCE-DEN-XX-DR-S-096..210. The engineer's drawings are not registered on this issue; the questions sheet is raised against them.",
+   "zip": {
+    "file": "downloads/UKPCS-003 Engineering.zip",
+    "bytes": 641386,
+    "count": 1
+   },
+   "docs": [
+    {
+     "id": "UKPCS-003-EQ-01",
+     "title": "Questions for the Engineer (open: EQ-01, EQ-02, EQ-03, EQ-04, EQ-05, EQ-06, EQ-07)",
+     "file": "docs/engineering/UKPCS-003-EQ-01 Questions for the Engineer.pdf",
+     "pages": 4,
+     "thumb": "thumbs/UKPCS-003-EQ-01.png",
+     "bytes": 806225,
+     "number": "UKPCS-003-EQ-01",
+     "view": "stage-2",
+     "view_opts": {}
+    }
+   ]
+  },
+  {
+   "id": "issue",
+   "title": "Full approval pack",
+   "note": "Cover, contents and every sheet in one PDF.",
+   "zip": {
+    "file": "downloads/UKPCS-003 Approval pack.zip",
+    "bytes": 2107093,
+    "count": 1
+   },
+   "docs": [
+    {
+     "id": "UKPCS-003-PACK",
+     "title": "Approval drawings pack (cover, contents, all sheets)",
+     "file": "docs/issue/UKPCS-003 - Approval drawings.pdf",
+     "pages": 20,
+     "thumb": "thumbs/UKPCS-003-PACK.png",
+     "bytes": 2634185,
+     "number": "UKPCS-003 P01"
+    }
+   ]
+  }
+ ],
+ "focus": {
+  "ghost": [
+   "H02_Aqua_Frost",
+   "WEB_BAKED",
+   "ICF_*",
+   "A",
+   "B",
+   "AS",
+   "AL",
+   "BS",
+   "BL",
+   ""
+  ],
+  "opacity": 0.12,
+  "stages": [
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "download_all": {
+  "file": "downloads/UKPCS-003 Dendrons - Approval Issue P01.zip",
+  "bytes": 4220452,
+  "count": 16,
+  "title": "Download everything"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "job": "Dendrons",
+ "revision": "P01",
+ "stages": [
+  {
+   "n": 1,
+   "title": "Ground-floor ICF",
+   "desc": "Nudura 6in XR35 ground-floor ICF walls as populated (6in Std internal walls), with the opening end caps and lintel bucks.",
+   "files": [
+    {
+     "glb": "stage-1.glb",
+     "part": null,
+     "label": null,
+     "bytes": 4238364
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "First-floor steel and hollowcore",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor.",
+   "files": [
+    {
+     "glb": "stage-2.glb",
+     "part": null,
+     "label": null,
+     "bytes": 371148
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "First-floor ICF",
+   "desc": "First-floor ICF walls on the ground-floor ICF and the hollowcore, with their openings.",
+   "files": [
+    {
+     "glb": "stage-3.glb",
+     "part": null,
+     "label": null,
+     "bytes": 2700100
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Second-floor steel and joists",
+   "desc": "S-102 second-floor steel on the first-floor ICF and the posi / C24 joists between the steel.",
+   "files": [
+    {
+     "glb": "stage-4.glb",
+     "part": null,
+     "label": null,
+     "bytes": 72804
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Roof steel, timbers and stair",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges), the roof timbers and the main stair.",
+   "files": [
+    {
+     "glb": "stage-5.glb",
+     "part": null,
+     "label": null,
+     "bytes": 167876
+    }
+   ]
+  }
+ ]
+}
