@@ -23,7 +23,7 @@
    "kind": "stage",
    "n": 2,
    "title": "First-floor steel and hollowcore",
-   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor.",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor, and the main stair (GF to FF); the blockwork lift shaft and secondary-stair enclosure rise with each storey.",
    "focus": true
   },
   {
@@ -46,8 +46,8 @@
    "id": "stage-5",
    "kind": "stage",
    "n": 5,
-   "title": "Roof steel, timbers and stair",
-   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges), the roof timbers and the main stair.",
+   "title": "Roof steel and timbers",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges) and the roof timbers.",
    "focus": true
   },
   {
@@ -116,13 +116,13 @@
   {
    "n": 2,
    "title": "First-floor steel and hollowcore",
-   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor.",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor, and the main stair (GF to FF); the blockwork lift shaft and secondary-stair enclosure rise with each storey.",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 371148
+     "bytes": 217956
     }
    ]
   },
@@ -135,7 +135,7 @@
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 2700100
+     "bytes": 2668908
     }
    ]
   },
@@ -148,20 +148,20 @@
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 72804
+     "bytes": 163724
     }
    ]
   },
   {
    "n": 5,
-   "title": "Roof steel, timbers and stair",
-   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges), the roof timbers and the main stair.",
+   "title": "Roof steel and timbers",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges) and the roof timbers.",
    "files": [
     {
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 167876
+     "bytes": 244584
     }
    ]
   }
@@ -173,7 +173,7 @@
    "note": "A3 approval issue: for comment and approval, not for construction.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval drawings.zip",
-    "bytes": 1472017,
+    "bytes": 1581293,
     "count": 14
    },
    "docs": [
@@ -183,7 +183,7 @@
      "file": "docs/drawings/UKPCS-003-GA-01 GF ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GA-01.png",
-     "bytes": 80930,
+     "bytes": 83309,
      "number": "UKPCS-003-GA-01",
      "view": "stage-1",
      "view_opts": {}
@@ -194,7 +194,7 @@
      "file": "docs/drawings/UKPCS-003-GA-02 FF ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GA-02.png",
-     "bytes": 64340,
+     "bytes": 65792,
      "number": "UKPCS-003-GA-02",
      "view": "stage-3",
      "view_opts": {}
@@ -205,7 +205,7 @@
      "file": "docs/drawings/UKPCS-003-GS-01 GF Steel over ICF.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GS-01.png",
-     "bytes": 75629,
+     "bytes": 77988,
      "number": "UKPCS-003-GS-01",
      "view": "stage-2",
      "view_opts": {}
@@ -216,7 +216,7 @@
      "file": "docs/drawings/UKPCS-003-GS-02 FF Steel over ICF.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GS-02.png",
-     "bytes": 73182,
+     "bytes": 74689,
      "number": "UKPCS-003-GS-02",
      "view": "stage-4",
      "view_opts": {}
@@ -227,7 +227,7 @@
      "file": "docs/drawings/UKPCS-003-EL-01 North and South Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-01.png",
-     "bytes": 396775,
+     "bytes": 436648,
      "number": "UKPCS-003-EL-01",
      "view": "elev-N",
      "view_opts": {}
@@ -238,7 +238,7 @@
      "file": "docs/drawings/UKPCS-003-EL-02 East and West Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-02.png",
-     "bytes": 394535,
+     "bytes": 445748,
      "number": "UKPCS-003-EL-02",
      "view": "elev-E",
      "view_opts": {}
@@ -249,7 +249,7 @@
      "file": "docs/drawings/UKPCS-003-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-01.png",
-     "bytes": 106930,
+     "bytes": 116011,
      "number": "UKPCS-003-SE-01",
      "view": "stage-5",
      "view_opts": {}
@@ -260,7 +260,7 @@
      "file": "docs/drawings/UKPCS-003-SE-02 Section B-B.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-02.png",
-     "bytes": 100038,
+     "bytes": 103159,
      "number": "UKPCS-003-SE-02",
      "view": "stage-5",
      "view_opts": {}
@@ -271,7 +271,7 @@
      "file": "docs/drawings/UKPCS-003-SE-03 Section C-C.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-03.png",
-     "bytes": 85749,
+     "bytes": 83884,
      "number": "UKPCS-003-SE-03",
      "view": "stage-5",
      "view_opts": {}
@@ -282,7 +282,7 @@
      "file": "docs/drawings/UKPCS-003-SE-04 Section D-D.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-04.png",
-     "bytes": 74019,
+     "bytes": 73999,
      "number": "UKPCS-003-SE-04",
      "view": "stage-5",
      "view_opts": {}
@@ -293,7 +293,7 @@
      "file": "docs/drawings/UKPCS-003-SE-05 Section E-E.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-05.png",
-     "bytes": 117866,
+     "bytes": 126180,
      "number": "UKPCS-003-SE-05",
      "view": "stage-5",
      "view_opts": {}
@@ -304,7 +304,7 @@
      "file": "docs/drawings/UKPCS-003-SE-06 Section F-F.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-06.png",
-     "bytes": 60524,
+     "bytes": 60448,
      "number": "UKPCS-003-SE-06",
      "view": "stage-5",
      "view_opts": {}
@@ -315,7 +315,7 @@
      "file": "docs/drawings/UKPCS-003-SE-07 Section H-H.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-07.png",
-     "bytes": 133225,
+     "bytes": 150767,
      "number": "UKPCS-003-SE-07",
      "view": "stage-5",
      "view_opts": {}
@@ -326,7 +326,7 @@
      "file": "docs/drawings/UKPCS-003-SE-08 Section I-I.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-08.png",
-     "bytes": 66018,
+     "bytes": 65923,
      "number": "UKPCS-003-SE-08",
      "view": "stage-5",
      "view_opts": {}
@@ -339,7 +339,7 @@
    "note": "Structural engineer: Tier Consult 078-TCE-DEN-XX-DR-S-096..210. The engineer's drawings are not registered on this issue; the questions sheet is raised against them.",
    "zip": {
     "file": "downloads/UKPCS-003 Engineering.zip",
-    "bytes": 641386,
+    "bytes": 764621,
     "count": 1
    },
    "docs": [
@@ -349,7 +349,7 @@
      "file": "docs/engineering/UKPCS-003-EQ-01 Questions for the Engineer.pdf",
      "pages": 4,
      "thumb": "thumbs/UKPCS-003-EQ-01.png",
-     "bytes": 806225,
+     "bytes": 971398,
      "number": "UKPCS-003-EQ-01",
      "view": "stage-2",
      "view_opts": {}
@@ -362,7 +362,7 @@
    "note": "Cover, contents and every sheet in one PDF.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval pack.zip",
-    "bytes": 2107093,
+    "bytes": 2339382,
     "count": 1
    },
    "docs": [
@@ -372,7 +372,7 @@
      "file": "docs/issue/UKPCS-003 - Approval drawings.pdf",
      "pages": 20,
      "thumb": "thumbs/UKPCS-003-PACK.png",
-     "bytes": 2634185,
+     "bytes": 2933720,
      "number": "UKPCS-003 P01"
     }
    ]
@@ -401,7 +401,7 @@
  },
  "download_all": {
   "file": "downloads/UKPCS-003 Dendrons - Approval Issue P01.zip",
-  "bytes": 4220452,
+  "bytes": 4685252,
   "count": 16,
   "title": "Download everything"
  }

@@ -18,13 +18,13 @@
   {
    "n": 2,
    "title": "First-floor steel and hollowcore",
-   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor.",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor, and the main stair (GF to FF); the blockwork lift shaft and secondary-stair enclosure rise with each storey.",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 371148
+     "bytes": 217956
     }
    ]
   },
@@ -37,7 +37,7 @@
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 2700100
+     "bytes": 2668908
     }
    ]
   },
@@ -50,20 +50,20 @@
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 72804
+     "bytes": 163724
     }
    ]
   },
   {
    "n": 5,
-   "title": "Roof steel, timbers and stair",
-   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges), the roof timbers and the main stair.",
+   "title": "Roof steel and timbers",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges) and the roof timbers.",
    "files": [
     {
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 167876
+     "bytes": 244584
     }
    ]
   }
