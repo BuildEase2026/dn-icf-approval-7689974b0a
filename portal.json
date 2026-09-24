@@ -122,7 +122,7 @@
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 217956
+     "bytes": 215960
     }
    ]
   },
@@ -148,7 +148,7 @@
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 163724
+     "bytes": 161716
     }
    ]
   },
@@ -161,7 +161,7 @@
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 244584
+     "bytes": 242576
     }
    ]
   }
@@ -173,7 +173,7 @@
    "note": "A3 approval issue: for comment and approval, not for construction.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval drawings.zip",
-    "bytes": 1581293,
+    "bytes": 1573108,
     "count": 14
    },
    "docs": [
@@ -183,7 +183,7 @@
      "file": "docs/drawings/UKPCS-003-GA-01 GF ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GA-01.png",
-     "bytes": 83309,
+     "bytes": 80345,
      "number": "UKPCS-003-GA-01",
      "view": "stage-1",
      "view_opts": {}
@@ -194,7 +194,7 @@
      "file": "docs/drawings/UKPCS-003-GA-02 FF ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GA-02.png",
-     "bytes": 65792,
+     "bytes": 64494,
      "number": "UKPCS-003-GA-02",
      "view": "stage-3",
      "view_opts": {}
@@ -205,7 +205,7 @@
      "file": "docs/drawings/UKPCS-003-GS-01 GF Steel over ICF.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GS-01.png",
-     "bytes": 77988,
+     "bytes": 76624,
      "number": "UKPCS-003-GS-01",
      "view": "stage-2",
      "view_opts": {}
@@ -216,7 +216,7 @@
      "file": "docs/drawings/UKPCS-003-GS-02 FF Steel over ICF.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GS-02.png",
-     "bytes": 74689,
+     "bytes": 71111,
      "number": "UKPCS-003-GS-02",
      "view": "stage-4",
      "view_opts": {}
@@ -227,7 +227,7 @@
      "file": "docs/drawings/UKPCS-003-EL-01 North and South Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-01.png",
-     "bytes": 436648,
+     "bytes": 435978,
      "number": "UKPCS-003-EL-01",
      "view": "elev-N",
      "view_opts": {}
@@ -238,7 +238,7 @@
      "file": "docs/drawings/UKPCS-003-EL-02 East and West Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-02.png",
-     "bytes": 445748,
+     "bytes": 445138,
      "number": "UKPCS-003-EL-02",
      "view": "elev-E",
      "view_opts": {}
@@ -249,7 +249,7 @@
      "file": "docs/drawings/UKPCS-003-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-01.png",
-     "bytes": 116011,
+     "bytes": 115724,
      "number": "UKPCS-003-SE-01",
      "view": "stage-5",
      "view_opts": {}
@@ -260,7 +260,7 @@
      "file": "docs/drawings/UKPCS-003-SE-02 Section B-B.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-02.png",
-     "bytes": 103159,
+     "bytes": 103114,
      "number": "UKPCS-003-SE-02",
      "view": "stage-5",
      "view_opts": {}
@@ -271,7 +271,7 @@
      "file": "docs/drawings/UKPCS-003-SE-03 Section C-C.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-03.png",
-     "bytes": 83884,
+     "bytes": 83834,
      "number": "UKPCS-003-SE-03",
      "view": "stage-5",
      "view_opts": {}
@@ -282,7 +282,7 @@
      "file": "docs/drawings/UKPCS-003-SE-04 Section D-D.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-04.png",
-     "bytes": 73999,
+     "bytes": 73954,
      "number": "UKPCS-003-SE-04",
      "view": "stage-5",
      "view_opts": {}
@@ -293,7 +293,7 @@
      "file": "docs/drawings/UKPCS-003-SE-05 Section E-E.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-05.png",
-     "bytes": 126180,
+     "bytes": 126132,
      "number": "UKPCS-003-SE-05",
      "view": "stage-5",
      "view_opts": {}
@@ -304,7 +304,7 @@
      "file": "docs/drawings/UKPCS-003-SE-06 Section F-F.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-06.png",
-     "bytes": 60448,
+     "bytes": 60399,
      "number": "UKPCS-003-SE-06",
      "view": "stage-5",
      "view_opts": {}
@@ -315,7 +315,7 @@
      "file": "docs/drawings/UKPCS-003-SE-07 Section H-H.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-07.png",
-     "bytes": 150767,
+     "bytes": 150436,
      "number": "UKPCS-003-SE-07",
      "view": "stage-5",
      "view_opts": {}
@@ -326,7 +326,7 @@
      "file": "docs/drawings/UKPCS-003-SE-08 Section I-I.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-08.png",
-     "bytes": 65923,
+     "bytes": 65878,
      "number": "UKPCS-003-SE-08",
      "view": "stage-5",
      "view_opts": {}
@@ -339,17 +339,17 @@
    "note": "Structural engineer: Tier Consult 078-TCE-DEN-XX-DR-S-096..210. The engineer's drawings are not registered on this issue; the questions sheet is raised against them.",
    "zip": {
     "file": "downloads/UKPCS-003 Engineering.zip",
-    "bytes": 764621,
+    "bytes": 171928,
     "count": 1
    },
    "docs": [
     {
      "id": "UKPCS-003-EQ-01",
-     "title": "Questions for the Engineer (open: EQ-01, EQ-02, EQ-03, EQ-04, EQ-05, EQ-06, EQ-07)",
+     "title": "Questions for the Engineer (open: EQ-01)",
      "file": "docs/engineering/UKPCS-003-EQ-01 Questions for the Engineer.pdf",
-     "pages": 4,
+     "pages": 1,
      "thumb": "thumbs/UKPCS-003-EQ-01.png",
-     "bytes": 971398,
+     "bytes": 215612,
      "number": "UKPCS-003-EQ-01",
      "view": "stage-2",
      "view_opts": {}
@@ -362,7 +362,7 @@
    "note": "Cover, contents and every sheet in one PDF.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval pack.zip",
-    "bytes": 2339382,
+    "bytes": 1738952,
     "count": 1
    },
    "docs": [
@@ -370,9 +370,9 @@
      "id": "UKPCS-003-PACK",
      "title": "Approval drawings pack (cover, contents, all sheets)",
      "file": "docs/issue/UKPCS-003 - Approval drawings.pdf",
-     "pages": 20,
+     "pages": 17,
      "thumb": "thumbs/UKPCS-003-PACK.png",
-     "bytes": 2933720,
+     "bytes": 2168316,
      "number": "UKPCS-003 P01"
     }
    ]
@@ -401,7 +401,7 @@
  },
  "download_all": {
   "file": "downloads/UKPCS-003 Dendrons - Approval Issue P01.zip",
-  "bytes": 4685252,
+  "bytes": 3483944,
   "count": 16,
   "title": "Download everything"
  }
