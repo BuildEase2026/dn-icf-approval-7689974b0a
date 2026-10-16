@@ -69,6 +69,10 @@
   .doc .num { font-size:12px; font-weight:700; color:var(--blue); }
   .doc .ttl { font-size:14px; line-height:1.25; margin-top:2px; }
   .doc .meta { font-size:12px; color:var(--muted); margin-top:3px; }
+  .docw { display:flex; flex-direction:column; gap:5px; }
+  .docw .doc { flex:1; }
+  .docw .cad { font-size:13px; background:var(--card); border:1px solid var(--line); border-radius:6px; padding:5px 9px; color:var(--blue); text-decoration:none; }
+  .docw .cad:hover { border-color:#b9c6da; }
   .dl { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 0; }
   .dl a { font-size:14px; background:var(--card); border:1px solid var(--line); border-radius:6px;
     padding:8px 11px; text-decoration:none; }
@@ -173,6 +177,7 @@
       <select class="tb" id="panelsel" hidden aria-label="Go to panel"></select>
       <a class="tb primary" id="open3d" hidden>Open in 3D</a>
       <a class="tb" id="download" download>Download</a>
+      <a class="tb" id="cad" download style="display:none">CAD (DWG + DXF)</a>
     </div>
     <div id="pdfwrap"><div id="pdfpad"><canvas id="pdfcanvas"></canvas></div><div id="docmsg"></div></div>
   </section>
@@ -197,6 +202,11 @@ import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const P = await (await fetch("portal.json", { cache: "no-cache" })).json();
+// isolate_stages: show ONLY the selected stage, not 1..K. Estimate portals whose stages are separate
+// buildings (ES27-077: ten blocks) want one at a time; approval jobs are a build sequence and stay
+// cumulative, so this is off unless the job asks for it.
+const ISO = !!P.isolate_stages;
+const inView = n => ISO ? n === view.n : n <= view.n;
 const proj = P.project;
 $("jobname").textContent = proj.job;
 $("status").textContent = `${proj.status || ""} · ${proj.revision || ""}`;
@@ -234,10 +244,11 @@ addEventListener("hashchange", route);
 // ------------------------------------------------------------------ home + groups
 function docCard(g, d) {
   const meta = [d.subtitle, `${d.pages} page${d.pages === 1 ? "" : "s"}`].filter(Boolean).join(" · ");
-  return `<a class="doc" href="#/doc/${g.id}/${encodeURIComponent(d.id)}">
+  const cad = d.cad ? `<a class="cad" href="${esc(d.cad.file)}" download>&#8681; CAD (DWG + DXF, ${mb(d.cad.bytes)})</a>` : "";
+  return `<div class="docw"><a class="doc" href="#/doc/${g.id}/${encodeURIComponent(d.id)}">
     <img loading="lazy" src="${esc(d.thumb)}" alt="">
     <div class="t">${d.number ? `<div class="num">${esc(d.number)}</div>` : ""}
-    <div class="ttl">${esc(d.title)}</div><div class="meta">${esc(meta)}</div></div></a>`;
+    <div class="ttl">${esc(d.title)}</div><div class="meta">${esc(meta)}</div></div></a>${cad}</div>`;
 }
 function downloads(g) {
   return (g.downloads || []).length ? `<div class="dl">${g.downloads.map(x =>
@@ -259,7 +270,7 @@ function modelCard() {
   const by = k => P.views.filter(v => v.kind === k).map(chip).join("");
   return `<div class="model-card">
     <div class="grp">Build sequence</div><div class="chips">${by("stage")}</div>
-    <div class="grp">Sections</div><div class="chips">${by("section")}</div>
+    ${by("section") ? `<div class="grp">Sections</div><div class="chips">${by("section")}</div>` : ""}
     <div class="grp">Elevations</div><div class="chips">${by("elevation")}</div></div>`;
 }
 function renderHome() {
@@ -298,6 +309,7 @@ async function openDoc(gid, did, page) {
   $("docnum").textContent = d.number || g.title;
   $("docttl").textContent = d.title;
   $("download").href = d.file;
+  if (d.cad) { $("cad").href = d.cad.file; $("cad").style.display = ""; } else $("cad").style.display = "none";
   const v = d.view && viewsById[d.view];
   $("open3d").hidden = !v;
   if (v) {
@@ -512,14 +524,14 @@ function loadFile(n, f) {
 
 function applyVisibility() {
   for (const r of loaded.values()) {
-    r.group.visible = r.stage <= view.n && (!r.part || partOn[r.part] !== false);
+    r.group.visible = inView(r.stage) && (!r.part || partOn[r.part] !== false);
     styleGroup(r);
   }
 }
 
 function modelBox() {
   const box = new THREE.Box3();
-  for (const r of loaded.values()) if (r.stage <= view.n) box.expandByObject(r.group);
+  for (const r of loaded.values()) if (inView(r.stage)) box.expandByObject(r.group);
   return box;
 }
 
@@ -600,7 +612,7 @@ async function open3d(id, q) {
   viewsBar(); tools();
   $("load3d").hidden = false;
   try {
-    for (let k = 1; k <= view.n; k++) for (const f of P.stages[k - 1].files || [{ glb: P.stages[k - 1].glb }]) await loadFile(k, f);
+    for (let k = ISO ? view.n : 1; k <= view.n; k++) for (const f of P.stages[k - 1].files || [{ glb: P.stages[k - 1].glb }]) await loadFile(k, f);
   } catch (e) { if (view === mine) $("load3d").textContent = "Could not load the 3D model. Check the connection and reload."; return; }
   if (view !== mine) return;                // a newer view was chosen while this one loaded
   $("load3d").hidden = true;

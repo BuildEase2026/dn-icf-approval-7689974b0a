@@ -1,6 +1,6 @@
 {
  "job": "Dendrons",
- "revision": "P01",
+ "revision": "P02",
  "stages": [
   {
    "n": 1,
@@ -11,59 +11,59 @@
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 4238364
+     "bytes": 3153472
     }
    ]
   },
   {
    "n": 2,
    "title": "First-floor steel and hollowcore",
-   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, and the 150 hollowcore floor, and the main stair (GF to FF); the blockwork lift shaft and secondary-stair enclosure rise with each storey.",
+   "desc": "S-101 first-floor steel cast into and bearing on the ground-floor ICF, the posts and connections, the 150 hollowcore floor and the main stair (GF to FF).",
    "files": [
     {
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 215960
+     "bytes": 214100
     }
    ]
   },
   {
    "n": 3,
    "title": "First-floor ICF",
-   "desc": "First-floor ICF walls on the ground-floor ICF and the hollowcore, with their openings.",
+   "desc": "First-floor ICF walls on the ground-floor ICF and the hollowcore, with their openings, the second-floor box walls and the gables to the rafter line.",
    "files": [
     {
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 2668908
+     "bytes": 2426360
     }
    ]
   },
   {
    "n": 4,
    "title": "Second-floor steel and joists",
-   "desc": "S-102 second-floor steel on the first-floor ICF and the posi / C24 joists between the steel.",
+   "desc": "S-102 second-floor steel on the first-floor ICF, the joists between the steel and the Simpson Strong-Tie ICF ledgers on the box walls.",
    "files": [
     {
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 161716
+     "bytes": 86336
     }
    ]
   },
   {
    "n": 5,
-   "title": "Roof steel and timbers",
-   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges) and the roof timbers.",
+   "title": "Roof steel",
+   "desc": "S-103 roof steel (mansard frames, purlins, gable rafters and ridges).",
    "files": [
     {
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 242576
+     "bytes": 33084
     }
    ]
   }
