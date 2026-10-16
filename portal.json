@@ -173,7 +173,7 @@
    "note": "A3 approval issue: for comment and approval, not for construction.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval drawings.zip",
-    "bytes": 1204018,
+    "bytes": 1204035,
     "count": 14
    },
    "docs": [
@@ -189,7 +189,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GA-01 CAD.zip",
-      "bytes": 247012,
+      "bytes": 247009,
       "count": 4
      }
     },
@@ -205,7 +205,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GA-02 CAD.zip",
-      "bytes": 150438,
+      "bytes": 150432,
       "count": 4
      }
     },
@@ -221,7 +221,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GS-01 CAD.zip",
-      "bytes": 214945,
+      "bytes": 214948,
       "count": 4
      }
     },
@@ -237,7 +237,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GS-02 CAD.zip",
-      "bytes": 154225,
+      "bytes": 154217,
       "count": 4
      }
     },
@@ -253,7 +253,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-EL-01 CAD.zip",
-      "bytes": 2054064,
+      "bytes": 2054077,
       "count": 6
      }
     },
@@ -269,7 +269,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-EL-02 CAD.zip",
-      "bytes": 2080048,
+      "bytes": 2080068,
       "count": 6
      }
     },
@@ -279,13 +279,13 @@
      "file": "docs/drawings/UKPCS-003-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-01.png",
-     "bytes": 91604,
+     "bytes": 91578,
      "number": "UKPCS-003-SE-01",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-01 CAD.zip",
-      "bytes": 471141,
+      "bytes": 471181,
       "count": 6
      }
     },
@@ -295,13 +295,13 @@
      "file": "docs/drawings/UKPCS-003-SE-02 Section B-B.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-02.png",
-     "bytes": 83488,
+     "bytes": 83531,
      "number": "UKPCS-003-SE-02",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-02 CAD.zip",
-      "bytes": 384585,
+      "bytes": 385023,
       "count": 6
      }
     },
@@ -311,13 +311,13 @@
      "file": "docs/drawings/UKPCS-003-SE-03 Section C-C.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-03.png",
-     "bytes": 75520,
+     "bytes": 75531,
      "number": "UKPCS-003-SE-03",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-03 CAD.zip",
-      "bytes": 258523,
+      "bytes": 258646,
       "count": 6
      }
     },
@@ -327,13 +327,13 @@
      "file": "docs/drawings/UKPCS-003-SE-04 Section D-D.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-04.png",
-     "bytes": 68439,
+     "bytes": 68455,
      "number": "UKPCS-003-SE-04",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-04 CAD.zip",
-      "bytes": 183672,
+      "bytes": 183738,
       "count": 6
      }
     },
@@ -343,13 +343,13 @@
      "file": "docs/drawings/UKPCS-003-SE-05 Section E-E.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-05.png",
-     "bytes": 91013,
+     "bytes": 91031,
      "number": "UKPCS-003-SE-05",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-05 CAD.zip",
-      "bytes": 420614,
+      "bytes": 421095,
       "count": 4
      }
     },
@@ -359,13 +359,13 @@
      "file": "docs/drawings/UKPCS-003-SE-06 Section F-F.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-06.png",
-     "bytes": 59854,
+     "bytes": 59821,
      "number": "UKPCS-003-SE-06",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-06 CAD.zip",
-      "bytes": 99915,
+      "bytes": 99860,
       "count": 4
      }
     },
@@ -375,13 +375,13 @@
      "file": "docs/drawings/UKPCS-003-SE-07 Section H-H.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-07.png",
-     "bytes": 107851,
+     "bytes": 107862,
      "number": "UKPCS-003-SE-07",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-07 CAD.zip",
-      "bytes": 628362,
+      "bytes": 628465,
       "count": 4
      }
     },
@@ -391,13 +391,13 @@
      "file": "docs/drawings/UKPCS-003-SE-08 Section I-I.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-08.png",
-     "bytes": 65165,
+     "bytes": 65161,
      "number": "UKPCS-003-SE-08",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-08 CAD.zip",
-      "bytes": 164418,
+      "bytes": 164421,
       "count": 6
      }
     }
@@ -415,7 +415,7 @@
    "note": "Cover, contents and every sheet in one PDF.",
    "zip": {
     "file": "downloads/UKPCS-003 Full approval pack.zip",
-    "bytes": 1196541,
+    "bytes": 1196565,
     "count": 1
    },
    "docs": [
@@ -425,7 +425,7 @@
      "file": "docs/issue/UKPCS-003 - Approval drawings.pdf",
      "pages": 16,
      "thumb": "thumbs/UKPCS-003-PACK.png",
-     "bytes": 1487359,
+     "bytes": 1487395,
      "number": "UKPCS-003 P02"
     }
    ]
@@ -455,7 +455,7 @@
  "isolate_stages": false,
  "download_all": {
   "file": "downloads/UKPCS-003 Dendrons - For Approval P02.zip",
-  "bytes": 2400537,
+  "bytes": 2400578,
   "count": 15,
   "title": "Download everything"
  }
