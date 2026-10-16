@@ -429,6 +429,42 @@
      "number": "UKPCS-003 P02"
     }
    ]
+  },
+  {
+   "id": "model",
+   "title": "3D model files",
+   "note": "The coordinated model as 3D CAD (DWG: solid walls / ICF blocks) and IFC (IFC4 / IFC2x3, .ifczip) for Revit, ArchiCAD, Navisworks or any IFC viewer.",
+   "docs": [],
+   "downloads": [
+    {
+     "file": "downloads/UKPCS-003 3D model files (DWG + IFC).zip",
+     "title": "All 3D model files (ZIP, 6 files, 19.9 MB)"
+    },
+    {
+     "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P02 - ICF blocks - 3D.dwg",
+     "title": "3D DWG: ICF blocks - 3D (11.2 MB)"
+    },
+    {
+     "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P02 - solid walls - 3D.dwg",
+     "title": "3D DWG: solid walls - 3D (3.4 MB)"
+    },
+    {
+     "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P02 - ICF blocks - IFC2X3.ifczip",
+     "title": "IFC: ICF blocks - IFC2X3 (5.0 MB)"
+    },
+    {
+     "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P02 - ICF blocks - IFC4.ifczip",
+     "title": "IFC: ICF blocks - IFC4 (3.9 MB)"
+    },
+    {
+     "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P02 - solid walls - IFC2X3.ifczip",
+     "title": "IFC: solid walls - IFC2X3 (1.4 MB)"
+    },
+    {
+     "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P02 - solid walls - IFC4.ifczip",
+     "title": "IFC: solid walls - IFC4 (0.8 MB)"
+    }
+   ]
   }
  ],
  "focus": {
@@ -455,8 +491,8 @@
  "isolate_stages": false,
  "download_all": {
   "file": "downloads/UKPCS-003 Dendrons - For Approval P02.zip",
-  "bytes": 2401529,
-  "count": 15,
+  "bytes": 26852256,
+  "count": 56,
   "title": "Download everything"
  }
 }
