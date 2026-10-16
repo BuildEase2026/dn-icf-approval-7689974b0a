@@ -173,7 +173,7 @@
    "note": "A3 approval issue: for comment and approval, not for construction.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval drawings.zip",
-    "bytes": 1204035,
+    "bytes": 1204266,
     "count": 14
    },
    "docs": [
@@ -189,7 +189,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GA-01 CAD.zip",
-      "bytes": 247009,
+      "bytes": 247007,
       "count": 4
      }
     },
@@ -205,7 +205,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GA-02 CAD.zip",
-      "bytes": 150432,
+      "bytes": 150441,
       "count": 4
      }
     },
@@ -221,7 +221,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GS-01 CAD.zip",
-      "bytes": 214948,
+      "bytes": 214963,
       "count": 4
      }
     },
@@ -237,7 +237,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GS-02 CAD.zip",
-      "bytes": 154217,
+      "bytes": 154245,
       "count": 4
      }
     },
@@ -247,13 +247,13 @@
      "file": "docs/drawings/UKPCS-003-EL-01 North and South Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-01.png",
-     "bytes": 278648,
+     "bytes": 278436,
      "number": "UKPCS-003-EL-01",
      "view": "elev-N",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-EL-01 CAD.zip",
-      "bytes": 2054077,
+      "bytes": 2053967,
       "count": 6
      }
     },
@@ -263,13 +263,13 @@
      "file": "docs/drawings/UKPCS-003-EL-02 East and West Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-02.png",
-     "bytes": 283113,
+     "bytes": 283488,
      "number": "UKPCS-003-EL-02",
      "view": "elev-E",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-EL-02 CAD.zip",
-      "bytes": 2080068,
+      "bytes": 2082021,
       "count": 6
      }
     },
@@ -279,7 +279,7 @@
      "file": "docs/drawings/UKPCS-003-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-01.png",
-     "bytes": 91578,
+     "bytes": 91576,
      "number": "UKPCS-003-SE-01",
      "view": "stage-5",
      "view_opts": {},
@@ -301,7 +301,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-02 CAD.zip",
-      "bytes": 385023,
+      "bytes": 385021,
       "count": 6
      }
     },
@@ -317,7 +317,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-03 CAD.zip",
-      "bytes": 258646,
+      "bytes": 258643,
       "count": 6
      }
     },
@@ -333,7 +333,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-04 CAD.zip",
-      "bytes": 183738,
+      "bytes": 183744,
       "count": 6
      }
     },
@@ -349,7 +349,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-05 CAD.zip",
-      "bytes": 421095,
+      "bytes": 421090,
       "count": 4
      }
     },
@@ -365,7 +365,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-06 CAD.zip",
-      "bytes": 99860,
+      "bytes": 99848,
       "count": 4
      }
     },
@@ -381,7 +381,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-07 CAD.zip",
-      "bytes": 628465,
+      "bytes": 628456,
       "count": 4
      }
     },
@@ -397,7 +397,7 @@
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-08 CAD.zip",
-      "bytes": 164421,
+      "bytes": 164428,
       "count": 6
      }
     }
@@ -415,7 +415,7 @@
    "note": "Cover, contents and every sheet in one PDF.",
    "zip": {
     "file": "downloads/UKPCS-003 Full approval pack.zip",
-    "bytes": 1196565,
+    "bytes": 1196753,
     "count": 1
    },
    "docs": [
@@ -425,7 +425,7 @@
      "file": "docs/issue/UKPCS-003 - Approval drawings.pdf",
      "pages": 16,
      "thumb": "thumbs/UKPCS-003-PACK.png",
-     "bytes": 1487395,
+     "bytes": 1487556,
      "number": "UKPCS-003 P02"
     }
    ]
@@ -455,7 +455,7 @@
  "isolate_stages": false,
  "download_all": {
   "file": "downloads/UKPCS-003 Dendrons - For Approval P02.zip",
-  "bytes": 2400578,
+  "bytes": 2400997,
   "count": 15,
   "title": "Download everything"
  }
