@@ -1,6 +1,6 @@
 {
  "job": "Dendrons",
- "revision": "P02",
+ "revision": "P03",
  "stages": [
   {
    "n": 1,
@@ -11,7 +11,7 @@
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 3153472
+     "bytes": 3147192
     }
    ]
   },
@@ -37,7 +37,7 @@
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 2388968
+     "bytes": 2386496
     }
    ]
   },
@@ -50,7 +50,7 @@
      "glb": "stage-4.glb",
      "part": null,
      "label": null,
-     "bytes": 86336
+     "bytes": 86344
     }
    ]
   },
@@ -63,7 +63,7 @@
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 33084
+     "bytes": 33264
     }
    ]
   }
