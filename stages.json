@@ -11,7 +11,7 @@
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 3147192
+     "bytes": 3156924
     }
    ]
   },
@@ -24,7 +24,7 @@
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 214100
+     "bytes": 215184
     }
    ]
   },
@@ -37,7 +37,7 @@
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 2386496
+     "bytes": 2384468
     }
    ]
   },
@@ -63,7 +63,7 @@
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 33264
+     "bytes": 40252
     }
    ]
   }

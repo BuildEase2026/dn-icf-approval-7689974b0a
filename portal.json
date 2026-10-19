@@ -109,7 +109,7 @@
      "glb": "stage-1.glb",
      "part": null,
      "label": null,
-     "bytes": 3147192
+     "bytes": 3156924
     }
    ]
   },
@@ -122,7 +122,7 @@
      "glb": "stage-2.glb",
      "part": null,
      "label": null,
-     "bytes": 214100
+     "bytes": 215184
     }
    ]
   },
@@ -135,7 +135,7 @@
      "glb": "stage-3.glb",
      "part": null,
      "label": null,
-     "bytes": 2386496
+     "bytes": 2384468
     }
    ]
   },
@@ -161,7 +161,7 @@
      "glb": "stage-5.glb",
      "part": null,
      "label": null,
-     "bytes": 33264
+     "bytes": 40252
     }
    ]
   }
@@ -173,7 +173,7 @@
    "note": "A3 approval issue: for comment and approval, not for construction.",
    "zip": {
     "file": "downloads/UKPCS-003 Approval drawings.zip",
-    "bytes": 1207146,
+    "bytes": 1238370,
     "count": 14
    },
    "docs": [
@@ -183,13 +183,13 @@
      "file": "docs/drawings/UKPCS-003-GA-01 GF ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GA-01.png",
-     "bytes": 81362,
+     "bytes": 81374,
      "number": "UKPCS-003-GA-01",
      "view": "stage-1",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GA-01 CAD.zip",
-      "bytes": 247828,
+      "bytes": 248055,
       "count": 4
      }
     },
@@ -199,13 +199,13 @@
      "file": "docs/drawings/UKPCS-003-GA-02 FF ICF General Arrangement.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GA-02.png",
-     "bytes": 67513,
+     "bytes": 67512,
      "number": "UKPCS-003-GA-02",
      "view": "stage-3",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GA-02 CAD.zip",
-      "bytes": 150623,
+      "bytes": 150611,
       "count": 4
      }
     },
@@ -215,13 +215,13 @@
      "file": "docs/drawings/UKPCS-003-GS-01 GF Steel over ICF.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GS-01.png",
-     "bytes": 75509,
+     "bytes": 75955,
      "number": "UKPCS-003-GS-01",
      "view": "stage-2",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GS-01 CAD.zip",
-      "bytes": 215388,
+      "bytes": 218538,
       "count": 4
      }
     },
@@ -231,13 +231,13 @@
      "file": "docs/drawings/UKPCS-003-GS-02 FF Steel over ICF.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-GS-02.png",
-     "bytes": 68080,
+     "bytes": 71461,
      "number": "UKPCS-003-GS-02",
      "view": "stage-4",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-GS-02 CAD.zip",
-      "bytes": 155273,
+      "bytes": 178875,
       "count": 4
      }
     },
@@ -247,13 +247,13 @@
      "file": "docs/drawings/UKPCS-003-EL-01 North and South Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-01.png",
-     "bytes": 278780,
+     "bytes": 289666,
      "number": "UKPCS-003-EL-01",
      "view": "elev-N",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-EL-01 CAD.zip",
-      "bytes": 2052244,
+      "bytes": 2156067,
       "count": 6
      }
     },
@@ -263,13 +263,13 @@
      "file": "docs/drawings/UKPCS-003-EL-02 East and West Elevations.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-EL-02.png",
-     "bytes": 286329,
+     "bytes": 301299,
      "number": "UKPCS-003-EL-02",
      "view": "elev-E",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-EL-02 CAD.zip",
-      "bytes": 2097067,
+      "bytes": 2230723,
       "count": 6
      }
     },
@@ -279,13 +279,13 @@
      "file": "docs/drawings/UKPCS-003-SE-01 Section A-A.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-01.png",
-     "bytes": 91560,
+     "bytes": 92096,
      "number": "UKPCS-003-SE-01",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-01 CAD.zip",
-      "bytes": 467723,
+      "bytes": 475129,
       "count": 6
      }
     },
@@ -295,13 +295,13 @@
      "file": "docs/drawings/UKPCS-003-SE-02 Section B-B.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-02.png",
-     "bytes": 83223,
+     "bytes": 83476,
      "number": "UKPCS-003-SE-02",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-02 CAD.zip",
-      "bytes": 380960,
+      "bytes": 385438,
       "count": 6
      }
     },
@@ -311,13 +311,13 @@
      "file": "docs/drawings/UKPCS-003-SE-03 Section C-C.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-03.png",
-     "bytes": 76115,
+     "bytes": 76360,
      "number": "UKPCS-003-SE-03",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-03 CAD.zip",
-      "bytes": 261734,
+      "bytes": 265075,
       "count": 6
      }
     },
@@ -327,13 +327,13 @@
      "file": "docs/drawings/UKPCS-003-SE-04 Section D-D.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-04.png",
-     "bytes": 68616,
+     "bytes": 69239,
      "number": "UKPCS-003-SE-04",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-04 CAD.zip",
-      "bytes": 184146,
+      "bytes": 189723,
       "count": 6
      }
     },
@@ -343,13 +343,13 @@
      "file": "docs/drawings/UKPCS-003-SE-05 Section E-E.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-05.png",
-     "bytes": 91129,
+     "bytes": 93796,
      "number": "UKPCS-003-SE-05",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-05 CAD.zip",
-      "bytes": 420997,
+      "bytes": 448403,
       "count": 4
      }
     },
@@ -359,13 +359,13 @@
      "file": "docs/drawings/UKPCS-003-SE-06 Section F-F.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-06.png",
-     "bytes": 59954,
+     "bytes": 60318,
      "number": "UKPCS-003-SE-06",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-06 CAD.zip",
-      "bytes": 100613,
+      "bytes": 103256,
       "count": 4
      }
     },
@@ -375,13 +375,13 @@
      "file": "docs/drawings/UKPCS-003-SE-07 Section H-H.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-07.png",
-     "bytes": 107574,
+     "bytes": 109891,
      "number": "UKPCS-003-SE-07",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-07 CAD.zip",
-      "bytes": 625491,
+      "bytes": 649089,
       "count": 4
      }
     },
@@ -391,13 +391,13 @@
      "file": "docs/drawings/UKPCS-003-SE-08 Section I-I.pdf",
      "pages": 1,
      "thumb": "thumbs/UKPCS-003-SE-08.png",
-     "bytes": 65305,
+     "bytes": 65635,
      "number": "UKPCS-003-SE-08",
      "view": "stage-5",
      "view_opts": {},
      "cad": {
       "file": "downloads/cad/UKPCS-003-SE-08 CAD.zip",
-      "bytes": 165086,
+      "bytes": 168737,
       "count": 6
      }
     }
@@ -405,7 +405,7 @@
    "downloads": [
     {
      "file": "downloads/UKPCS-003 CAD drawings (DWG + DXF).zip",
-     "title": "All CAD drawings (DWG + DXF, ZIP, 70 files, 7.5 MB)"
+     "title": "All CAD drawings (DWG + DXF, ZIP, 70 files, 7.9 MB)"
     }
    ]
   },
@@ -415,7 +415,7 @@
    "note": "Cover, contents and every sheet in one PDF.",
    "zip": {
     "file": "downloads/UKPCS-003 Full approval pack.zip",
-    "bytes": 1199598,
+    "bytes": 1230965,
     "count": 1
    },
    "docs": [
@@ -425,7 +425,7 @@
      "file": "docs/issue/UKPCS-003 - Approval drawings.pdf",
      "pages": 16,
      "thumb": "thumbs/UKPCS-003-PACK.png",
-     "bytes": 1491921,
+     "bytes": 1528981,
      "number": "UKPCS-003 P03"
     }
    ]
@@ -438,7 +438,7 @@
    "downloads": [
     {
      "file": "downloads/UKPCS-003 3D model files (DWG + IFC).zip",
-     "title": "All 3D model files (ZIP, 6 files, 19.8 MB)"
+     "title": "All 3D model files (ZIP, 6 files, 20.0 MB)"
     },
     {
      "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P03 - ICF blocks - 3D.dwg",
@@ -446,7 +446,7 @@
     },
     {
      "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P03 - solid walls - 3D.dwg",
-     "title": "3D DWG: solid walls - 3D (3.4 MB)"
+     "title": "3D DWG: solid walls - 3D (3.5 MB)"
     },
     {
      "file": "downloads/3d/UKPCS-003 Icf Homes - Dendrons - Approval Issue P03 - ICF blocks - IFC2X3.ifczip",
@@ -492,7 +492,7 @@
  "toggles": [],
  "download_all": {
   "file": "downloads/UKPCS-003 Dendrons - For Approval P03.zip",
-  "bytes": 26732497,
+  "bytes": 27156658,
   "count": 56,
   "title": "Download everything"
  }
